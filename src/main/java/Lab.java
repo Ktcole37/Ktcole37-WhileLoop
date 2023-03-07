@@ -36,7 +36,7 @@ public class Lab {
         int sum = 0;
         int i = 0;
 
-        while(i < 6){
+        while(i < end){
         sum = sum + 1;
         System.out.println(sum);
         i = i + 1;
