@@ -32,16 +32,16 @@ public class Lab {
      *            (exclusive - for example, when end is 5, we calculate 0+1+2+3+4)
      *
      **/
-    public void whileExample(int end){
+    public int whileExample(int end){
         int sum = 0;
         int i = 0;
 
-        while(i < end){
+        while(i < 6){
         sum = sum + 1;
         System.out.println(sum);
         i = i + 1;
         System.out.println(i);    
     }
-    
+        return end;
     }
 }
