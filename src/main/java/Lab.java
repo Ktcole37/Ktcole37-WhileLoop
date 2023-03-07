@@ -39,9 +39,10 @@ public class Lab {
         while(i < end){
         sum = sum + i;
         i = i + 1;
-        System.out.println(sum);
-        System.out.println(i);
+        i++;
+        
+        
     }
         return end;
-    }
+    } 
 }
